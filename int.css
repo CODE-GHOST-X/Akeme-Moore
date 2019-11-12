@@ -1,0 +1,60 @@
+:root {
+    background-color: #002244;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .section {
+    min-height: 40px;
+    background-color: #058C42;
+    color: azure;
+    font-size: 30px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .tips {
+    min-height: 70px;
+    background-color: #393D3F;
+    color: azure;
+    text-transform: capitalize;
+    border-radius: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 15px;
+    line-height: 1.3;
+}
+
+.container .example {
+
+    min-height: 80px;
+    background-color: #FFAF02;
+    color: black;
+    padding: 3px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-bottom: -35px;
+}
+
+
+.btn {
+    font-size: 1.18rem;
+    padding: 0.1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #FFAF02;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    text-decoration: none;
+    background: #990000;
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0.01px 1.1px #FFAF02;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
